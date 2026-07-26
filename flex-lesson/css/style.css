@@ -1,0 +1,38 @@
+html {
+	font-family: sans-serif;
+}
+
+body * {
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+}
+
+.container {
+	max-width: 1320px;
+	min-height: 100vh;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.article {
+	max-width: 284px;
+}
+
+.article-4 {
+	align-self: flex-end;
+}
+
+.title {
+	font-size: 30px;
+}
