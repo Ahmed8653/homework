@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./index.css" />
+		<title>Document</title>
+	</head>
+	<body class="page__body">
+		<header class="header">
+			<div class="container header__container">
+				<a class="header__logo" href="#">
+					<img
+						class="logo__img"
+						src="./icons/logo-img-sprite.svg"
+						width="170"
+						height="21"
+						alt="Логотип CALIFONRIA"
+					/>
+				</a>
+				<nav
+					class="menu header__menu"
+					id="header__menu"
+					aria-label="Главное меню"
+				>
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a class="menu__link" href="#all-products">all-products</a>
+						</li>
+						<li class="menu__item">
+							<details>
+								<summary class="menu__link">Solutions</summary>
+								<ul>
+									<li class="menu__item">
+										<a class="menu__link" href="#">Solution 1</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="#">Solution 2</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="#">Solution 3</a>
+									</li>
+								</ul>
+							</details>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#ABOUT">ABOUT</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#Support">Support</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__controls">
+					<div class="header__actions">
+						<details class="search">
+							<summary class="header__actions-button" title="Поиск">
+								<svg width="24" height="24">
+									<use
+										class="header__actions-icon"
+										href="./icons/search-sptore.svg#search"
+									></use>
+								</svg>
+							</summary>
+
+							<div class="search__modal">
+								<input
+									class="search__input"
+									type="search"
+									placeholder="Search..."
+								/>
+							</div>
+						</details>
+						<button
+							class="header__actions-button"
+							title="Корзина"
+							aria-label="Корзина"
+						>
+							<svg width="24" height="24">
+								<use
+									class="header__actions-icon"
+									href="./icons/search-sptore.svg#basket"
+								></use>
+							</svg>
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+	</body>
+</html>
