@@ -51,7 +51,7 @@ details summary::after {
 	width: 12px;
 	height: 8px;
 	margin-left: 6px;
-	background: url("/icons/arrow.svg") no-repeat;
+	background: url("./icons/arrow.svg") no-repeat;
 	transition: transform 0.2s;
 }
 
